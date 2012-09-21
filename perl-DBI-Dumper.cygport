@@ -1,0 +1,12 @@
+NAME="perl-DBI-Dumper"
+VERSION=2.01
+RELEASE=1
+CATEGORY="Perl"
+SUMMARY="Dumps SQL select statement output into file"
+DESCRIPTION="Dumps data from a select statement into an output file. sqldumper
+tries to mirror the functionality and behavior of sql*loader. The control file
+syntax is similar, and DBI::Dumper utilizes a subset of the sql*loader options."
+CPAN_AUTHOR=wsmith
+inherit perl
+
+MAKEOPTS+=" -j1"
